@@ -3,6 +3,7 @@
         x(n+1) = x(n) - f(x(n))/f'(x(n))
     Exemplo usado: x^3-x-1 = 0
 '''
+import matplotlib.pyplot as plt
 import math
 
 def newton_rapshon ():
@@ -21,6 +22,15 @@ def newton_rapshon ():
             print (f'A soluçaõ convergiu corretamente na interação {n}')
             print (f'Ponto fixo da equação: {x[n]:.15f}')
             break;
+
+    i = [i for i in range (1, len(x))]
+    x.pop (0)
+
+    plt.title ("Método de Newton-Rapshon")
+    plt.xlabel ("Eixo X")
+    plt.ylabel ("Eixto Y")
+    plt.plot (i, x)
+    plt.show ()
     
 def funcao_g (x):
     return x - (funcao(x)/derivada(x))
