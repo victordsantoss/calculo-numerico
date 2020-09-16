@@ -13,6 +13,14 @@ Desevolvimento e caracterização de algoritimos eficientes para computar precis
   * É possível que, f(a) * f(b) < 0 possibilite a existência de mais de uma raix no intervalo (a,b).
   * Se f(a) * f(b) > 0 não podemos afirmar nada.
   * A continuidade da f(x) é fundamental para que o resultado do teorema aplicado ao método escolhido funcione.
+  
+  
+## :computer: Requisitos
+Veremos algoritimos implementados em linguagem [Python](https://www.python.org/downloads/) e [Fortran](https://gcc.gnu.org/wiki/GFortranBinaries#Windows). Logo se faz necessário a instalação dessas duas tecnologias, junto aos seus compiladores. 
+
+:books: Para a plotagem dos gráficos nos exemplos de python é necessário a biblioteca **Matplotlib** que pode ser acessada clicando [aqui](https://matplotlib.org/downloads.html).
+
+:books: Para a plotagem dos gráficos nos exemplos de Fortran usaremos a ferramenta **Gnuplot** que pode ser acessada clicando [aqui](https://sourceforge.net/projects/gnuplot/files/gnuplot/).
    
   
 
@@ -26,3 +34,32 @@ Desevolvimento e caracterização de algoritimos eficientes para computar precis
 ### 2. Método da Bisseção 
 
 
+## :running: Como executar esses progrmas usando o sistema Linux :question:
+**1. Python**
+> Primero passo: Clonar este repositório
+     
+    git clone https://github.com/victordsantoss/calculo_numerico.git
+> Acesse a pasta raiz do repositório
+
+    cd ../../calculo_numerico
+> Escolha um arquivo de preferência e execute o processo de compilação e execução
+    
+    python nome_arquivo.py
+**2. Fortran**
+> Primero passo: Clonar este repositório
+     
+    git clone https://github.com/victordsantoss/calculo_numerico.git
+> Acesse a pasta raiz do repositório
+
+    cd ../../calculo_numerico
+
+> Escolha um arquivo de preferência e execute o processo de compilação e execução
+    
+    gfortran nome_arquivo.f90
+    ./a.out
+> Será gerado um arquivo saida.dat que são os dados referentes ao seu método. Agora para visualizar o gráfico é simples! Basta seguir 2 etapas extremamente fáceis. 
+    
+    Abrir a ferramenta Gnuplot na pasta do arquivo saida.dat, executando: gnuplot
+> Comando simples para gerar um grafico: 
+    
+    plot 'nome_arquivo.dat' using 1:2 with lines 
