@@ -1,12 +1,10 @@
 '''
-    Método de Newton é definido por: 
-        x(n+1) = x(n) - f(x(n))/f'(x(n))
     Exemplo usado: x^3-x-1 = 0
 '''
 import matplotlib.pyplot as plt
 import math
 
-def newton_rapshon ():
+def newton_raphson ():
 
     n = 0
     chute_inicial = 0
@@ -42,5 +40,5 @@ def derivada (x):
     return 3*x**2-1
 
 if __name__ == "__main__":
-    newton_rapshon ()
+    newton_raphson ()
     

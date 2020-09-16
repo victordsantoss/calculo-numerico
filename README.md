@@ -17,7 +17,7 @@ Desevolvimento e caracterização de algoritimos eficientes para computar precis
   
 
 ## :question: Métodos apresentados: 
-### :collision: 1. Método de Newton-Rapshon: 
+### :collision: 1. Método de Newton-Raphson: 
   * Baseado no aproximamento sucessivo a raiz da função f(x) por meio da raiz da reta tangente no ponto. 
   * O método: Xn+1 = Xn - f(X(n) / f'(X(n)
   
