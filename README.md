@@ -31,7 +31,9 @@ Veremos algoritimos implementados em linguagem [Python](https://www.python.org/d
   
   ![Método de Newton](https://upload.wikimedia.org/wikipedia/commons/b/bb/Newton%E2%80%93Raphson_method.png)
   
-### 2. Método da Bisseção 
+### :collision: 2. Método da Bisseção 
+  * Diminuição Gradativa do intervalo por meio do cálculo do ponto médio.
+  ![Método da Bissecção](https://sites.google.com/site/calcnum10/_/rsrc/1475769500201/home/lista-2/metodos/metodo-da-bisseccao/Bissec%C3%A7%C3%A3o.png)
 
 
 ## :running: Como executar esses progrmas usando o sistema Linux :question:
