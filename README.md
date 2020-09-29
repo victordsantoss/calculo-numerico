@@ -35,6 +35,9 @@ Veremos algoritimos implementados em linguagem [Python](https://www.python.org/d
   * Diminuição Gradativa do intervalo por meio do cálculo do ponto médio.
   ![Método da Bissecção](https://sites.google.com/site/calcnum10/_/rsrc/1475769500201/home/lista-2/metodos/metodo-da-bisseccao/Bissec%C3%A7%C3%A3o.png)
 
+### :collision: 2. Método da Eliminação Gaussiana
+  * Resolução de sistemas de equações algébricas, por meio de escalonamentos sucessivos para uma simplificação do sistema na busca pelas soluções.
+  ![Método da eliminação Gaussiana](https://3.bp.blogspot.com/-eENtEFKiZi0/XF6uShPjLSI/AAAAAAAAnEQ/qUwbWCA8dZ0wB-bx6UT2ezyWikYXrDRZACLcBGAs/w1200-h630-p-k-no-nu/Escalonamento%252C%2Bo%2Bm%25C3%25A9todo%2Bde%2Belimina%25C3%25A7%25C3%25A3o%2Bde%2BGauss.png)
 
 ## :running: Como executar esses progrmas usando o sistema Linux :question:
 **1. Python**
