@@ -3,6 +3,7 @@
 '''
 import matplotlib.pyplot as plt
 import math
+import numpy
 
 def metodo_da_bisseccao ():
 
@@ -56,7 +57,7 @@ def metodo_da_bisseccao ():
     plt.show ()
 
 def func (x):
-    return x**3-x-1
+    return x**3 - x + 1
 
 if __name__ == "__main__":
     metodo_da_bisseccao ()

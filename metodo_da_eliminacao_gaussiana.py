@@ -21,8 +21,8 @@ def main ():
     triangular_superior (a, b)
     print (f'Raizes do Sistema: \n', triangular_solver (a,b))
 
- 
 def triangular_solver (a,b):
+    
     n = numpy.size(b)
     x = numpy.zeros(n)
 

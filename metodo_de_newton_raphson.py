@@ -10,7 +10,7 @@ def newton_raphson ():
     chute_inicial = 0
     x = []
     x.append(chute_inicial)
-
+    
     while True:
         x.append (round (funcao_g(x[n]), 16))
         n += 1
