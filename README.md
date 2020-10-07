@@ -38,6 +38,10 @@ Veremos algoritimos implementados em linguagem [Python](https://www.python.org/d
 ### :collision: 2. Método da Eliminação Gaussiana
   * Resolução de sistemas de equações algébricas, por meio de escalonamentos sucessivos para uma simplificação do sistema na busca pelas soluções.
   ![Método da eliminação Gaussiana](https://3.bp.blogspot.com/-eENtEFKiZi0/XF6uShPjLSI/AAAAAAAAnEQ/qUwbWCA8dZ0wB-bx6UT2ezyWikYXrDRZACLcBGAs/w1200-h630-p-k-no-nu/Escalonamento%252C%2Bo%2Bm%25C3%25A9todo%2Bde%2Belimina%25C3%25A7%25C3%25A3o%2Bde%2BGauss.png)
+  
+### :collision: 2. Método da Decomposição LU
+  * Método que consiste em fatorar a Matriz A na forma A = lu. Sendo L, a matriz triangular inferior e U a matriz triangular superior. Nesse contexto, esse método a partir da fatoração consiste em resolver um sistema na forma LY = B e UX = Y.
+  ![Método da Fatoração LU](https://image.slidesharecdn.com/aula3-sistemaslineares-parte1-130213170436-phpapp01/95/aula3-sistemas-lineares-parte1-29-638.jpg?cb=1360775137)
 
 ## :running: Como executar esses progrmas usando o sistema Linux :question:
 **1. Python**
