@@ -46,6 +46,14 @@ Veremos algoritimos implementados em linguagem [Python](https://www.python.org/d
 ### :collision: 4. Método de Gauss com Pivoteamento 
   * Método usado para quando encontramos um pivô nulo no meio do caminho. Esse método consiste em trocar linhas de posição, afim de, que o pivô nulo seja trocado por um pivô no nulo.
   ![Método de Gauss com pivoteamento](https://slideplayer.com.br/slide/1594717/5/images/23/Estrat%C3%A9gias+de+Pivoteamento.jpg)
+  
+### :collision: 5. Método de Gauss Jacobi 
+  * Método iterativo para solução de sistemas lineares por meio de aproximações sucessivas as raizes, baseadas em chutes inicias para cada coeficiente aplicado nas soluções de ocorrência.
+  ![Método de Gauss Jacobi](https://image.slidesharecdn.com/aula02renancn-130809053942-phpapp01/95/mtodos-iterativos-gaussjacobi-part-i-professorenan-13-638.jpg?cb=1376033881)
+
+### :collision: 6. Método de Gauss Seidel
+  * Método iterativo para solução de sistemas lineares, sendo um aperfeiçoamento do Método de Gauss Jacobi, que ainda tem o princípio de aproximações sucessivas as raizes, baseadas em chutes inicias para cada coeficiente aplicado nas soluções de ocorrência. Porém, desta vez, os valores de cada coeficiente são atualizados a cada iteração.
+  ![Método de Gauss Seidel](https://image.slideserve.com/879230/m-todos-iterativos-m-todo-de-gauss-seidel2-l.jpg)
 
 
 ## :running: Como executar esses progrmas usando o sistema Linux :question:
