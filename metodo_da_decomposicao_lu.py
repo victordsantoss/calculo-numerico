@@ -22,7 +22,6 @@ def main ():
     for i in range (0, tam_matriz):
         vetor_b[i] = (float(input(f"Elemento a[{i+1}]: ")))
 
-
     # Operações de geração de matrizes L e U
     for k in range (0, tam_matriz):
         for r in range (0, tam_matriz):
