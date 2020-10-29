@@ -54,6 +54,9 @@ Veremos algoritimos implementados em linguagem [Python](https://www.python.org/d
 ### :collision: 7. Método de Gauss Seidel
   * Método iterativo para solução de sistemas lineares, sendo um aperfeiçoamento do Método de Gauss Jacobi, que ainda tem o princípio de aproximações sucessivas as raizes, baseadas em chutes inicias para cada coeficiente aplicado nas soluções de ocorrência. Porém, desta vez, os valores de cada coeficiente são atualizados a cada iteração.
   ![Método de Gauss Seidel](https://image.slideserve.com/879230/m-todos-iterativos-m-todo-de-gauss-seidel2-l.jpg)
+  
+### :collision: 8. Método de Newton Rapshon para Resolução de Sistemas não Lineares
+  * Método iterativo para resolução de Sistemas não lineares, baseado na fórmula de recorrência: Xn+1 = Xn - (Jf(Xn))^(-1) * f(Xn). Sendo (Jf(Xn))^(-1) a Jácobiana Invertida da matriz dos coeficientes do sistema.
 
 
 ## :running: Como executar esses progrmas usando o sistema Linux :question:
