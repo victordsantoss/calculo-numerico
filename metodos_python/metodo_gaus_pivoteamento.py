@@ -1,9 +1,7 @@
-# Importação de bibliotecas
 import math 
 import numpy
 
 def main ():
-
     gaus_pivoteamento([[1,2,-1],[2,-1,1],[1,1,1]],[2,3,6])
 
 def gaus_pivoteamento (a, b):

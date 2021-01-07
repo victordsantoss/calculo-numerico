@@ -1,4 +1,5 @@
 ! Exemplo usado: x^3-x-1 = 0
+
 program bissecao
     implicit none
 
@@ -59,7 +60,6 @@ program bissecao
     deallocate(x)
     deallocate(b)
     deallocate(a)
-    
 
     contains
 

@@ -1,6 +1,5 @@
-'''
-    Exemplo usado: x^3-x-1 = 0
-'''
+# Exemplo usado: x^3-x-1 = 0
+
 import matplotlib.pyplot as plt
 import math
 
