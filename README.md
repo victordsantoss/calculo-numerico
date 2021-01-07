@@ -36,26 +36,28 @@ Veremos algoritimos implementados em linguagem [Python](https://www.python.org/d
 
 ## :running: Como executar esses progrmas usando o sistema Linux :question:
 **1. Python**
-> Primero passo: Clonar este repositório
+> Clonar este repositório
      
     git clone https://github.com/victordsantoss/calculo_numerico.git
-> Acesse a pasta raiz do repositório
+> Acessar a pasta raiz do repositório
 
     cd ../../calculo_numerico
-> Escolha um arquivo de preferência e execute o processo de compilação e execução
+> Escolher um arquivo de preferência e execute o processo de compilação e execução
     
     python nome_arquivo.py
 **2. Fortran**
-> Primero passo: Clonar este repositório
+> Clonar este repositório
      
     git clone https://github.com/victordsantoss/calculo_numerico.git
-> Acesse a pasta raiz do repositório
+> Acessar a pasta raiz do repositório
 
     cd ../../calculo_numerico
 
-> Escolha um arquivo de preferência e execute o processo de compilação e execução
+> Escolher um arquivo de preferência e execute o processo de compilação 
     
     gfortran nome_arquivo.f90
+> Rodar o processo de execução
+
     ./a.out
 > Será gerado um arquivo saida.dat que são os dados referentes ao seu método. Agora para visualizar o gráfico é simples! Basta seguir 2 etapas extremamente fáceis. 
     
