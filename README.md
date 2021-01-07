@@ -1,5 +1,5 @@
 # :warning: O que será abordado? 
-Desevolvimento e caracterização de algoritimos eficientes para computar precisamente processos matemáticos. Onde o interesse está em processos que independente do nosso chute inicial em determinado intervalo, venham a convergir após um número N de interações.
+Métodos Numéricos desenvolvidos na disciplina de Cálculo Numérico, sendo a caracterização de algoritimos eficientes para computar precisamente processos matemáticos. Onde o interesse está em processos que independente do nosso chute inicial em determinado intervalo, venham a convergir após um número N de interações.
 
 É importante saber que queremos encontrar um x* que aplicado a uma g(x*) estabilize a equação. Sobre esse x* temos, algumas definições:
   * Assintoticamente Estável: O processo iterativo é atraído por este ponto fixo.
@@ -33,6 +33,15 @@ Veremos algoritimos implementados em linguagem [Python](https://www.python.org/d
 #### :collision: 6. Método de Gauss Jacobi 
 #### :collision: 7. Método de Gauss Seidel  
 #### :collision: 8. Método de Newton Rapshon para Resolução de Sistemas não Lineares
+#### :collision: 9. Método de Ajuste de Curvas
+#### :collision: 10. Método do Polinômio Interpolador de LaGrange
+#### :collision: 11. Método da Diferenciação Numérica
+#### :collision: 12. Método do Retângulo
+#### :collision: 13. Método do Trapézio
+#### :collision: 14. Método da Quadratura Gaussiana
+#### :collision: 15. Método de Euler
+#### :collision: 16. Método de Runge-Kutta de 4ª Ordem 
+#### :collision: 17. Método SOR
 
 ## :running: Como executar esses progrmas usando o sistema Linux :question:
 **1. Python**
