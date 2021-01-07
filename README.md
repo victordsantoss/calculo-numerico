@@ -25,64 +25,37 @@ Veremos algoritimos implementados em linguagem [Python](https://www.python.org/d
   
 
 ## :question: Métodos apresentados: 
-### :collision: 1. Método de Newton-Raphson: 
-  * Baseado no aproximamento sucessivo a raiz da função f(x) por meio da raiz da reta tangente no ponto. 
-  * O método: Xn+1 = Xn - f(X(n) / f'(X(n)
-  
-  ![Método de Newton](https://upload.wikimedia.org/wikipedia/commons/b/bb/Newton%E2%80%93Raphson_method.png)
-  
-### :collision: 2. Método da Bisseção 
-  * Diminuição Gradativa do intervalo por meio do cálculo do ponto médio.
-  ![Método da Bissecção](https://sites.google.com/site/calcnum10/_/rsrc/1475769500201/home/lista-2/metodos/metodo-da-bisseccao/Bissec%C3%A7%C3%A3o.png)
-
-### :collision: 3. Método da Eliminação Gaussiana
-  * Resolução de sistemas de equações algébricas, por meio de escalonamentos sucessivos para uma simplificação do sistema na busca pelas soluções.
-  ![Método da eliminação Gaussiana](https://3.bp.blogspot.com/-eENtEFKiZi0/XF6uShPjLSI/AAAAAAAAnEQ/qUwbWCA8dZ0wB-bx6UT2ezyWikYXrDRZACLcBGAs/w1200-h630-p-k-no-nu/Escalonamento%252C%2Bo%2Bm%25C3%25A9todo%2Bde%2Belimina%25C3%25A7%25C3%25A3o%2Bde%2BGauss.png)
-  
-### :collision: 4. Método da Decomposição LU
-  * Método que consiste em fatorar a Matriz A na forma A = lu. Sendo L, a matriz triangular inferior e U a matriz triangular superior. Nesse contexto, esse método a partir da fatoração consiste em resolver um sistema na forma LY = B e UX = Y.
-  ![Método da Fatoração LU](https://image.slidesharecdn.com/aula3-sistemaslineares-parte1-130213170436-phpapp01/95/aula3-sistemas-lineares-parte1-29-638.jpg?cb=1360775137)
-  
-### :collision: 5. Método de Gauss com Pivoteamento 
-  * Método usado para quando encontramos um pivô nulo no meio do caminho. Esse método consiste em trocar linhas de posição, afim de, que o pivô nulo seja trocado por um pivô no nulo.
-  ![Método de Gauss com pivoteamento](https://slideplayer.com.br/slide/1594717/5/images/23/Estrat%C3%A9gias+de+Pivoteamento.jpg)
-  
-### :collision: 6. Método de Gauss Jacobi 
-  * Método iterativo para solução de sistemas lineares por meio de aproximações sucessivas as raizes, baseadas em chutes inicias para cada coeficiente aplicado nas soluções de ocorrência.
-  ![Método de Gauss Jacobi](https://image.slidesharecdn.com/aula02renancn-130809053942-phpapp01/95/mtodos-iterativos-gaussjacobi-part-i-professorenan-13-638.jpg?cb=1376033881)
-
-### :collision: 7. Método de Gauss Seidel
-  * Método iterativo para solução de sistemas lineares, sendo um aperfeiçoamento do Método de Gauss Jacobi, que ainda tem o princípio de aproximações sucessivas as raizes, baseadas em chutes inicias para cada coeficiente aplicado nas soluções de ocorrência. Porém, desta vez, os valores de cada coeficiente são atualizados a cada iteração.
-  ![Método de Gauss Seidel](https://image.slideserve.com/879230/m-todos-iterativos-m-todo-de-gauss-seidel2-l.jpg)
-  
-### :collision: 8. Método de Newton Rapshon para Resolução de Sistemas não Lineares
-  * Método iterativo para resolução de Sistemas não lineares, baseado na fórmula de recorrência: Xn+1 = Xn - (Jf(Xn))^(-1) * f(Xn). Sendo (Jf(Xn))^(-1) a Jácobiana Invertida da matriz dos coeficientes do sistema.
-
+#### :collision: 1. Método de Newton-Raphson
+#### :collision: 2. Método da Bisseção 
+#### :collision: 3. Método da Eliminação Gaussiana
+#### :collision: 4. Método da Decomposição LU 
+#### :collision: 5. Método de Gauss com Pivoteamento 
+#### :collision: 6. Método de Gauss Jacobi 
+#### :collision: 7. Método de Gauss Seidel  
+#### :collision: 8. Método de Newton Rapshon para Resolução de Sistemas não Lineares
 
 ## :running: Como executar esses progrmas usando o sistema Linux :question:
 **1. Python**
-> Clonar este repositório
+> Primero passo: Clonar este repositório
      
     git clone https://github.com/victordsantoss/calculo_numerico.git
-> Acessar a pasta raiz do repositório
+> Acesse a pasta raiz do repositório
 
     cd ../../calculo_numerico
-> Escolher um arquivo de preferência e execute o processo de compilação e execução
+> Escolha um arquivo de preferência e execute o processo de compilação e execução
     
     python nome_arquivo.py
 **2. Fortran**
-> Clonar este repositório
+> Primero passo: Clonar este repositório
      
     git clone https://github.com/victordsantoss/calculo_numerico.git
-> Acessar a pasta raiz do repositório
+> Acesse a pasta raiz do repositório
 
     cd ../../calculo_numerico
 
-> Escolher um arquivo de preferência e execute o processo de compilação 
+> Escolha um arquivo de preferência e execute o processo de compilação e execução
     
     gfortran nome_arquivo.f90
-> Rodar o processo de execução
-
     ./a.out
 > Será gerado um arquivo saida.dat que são os dados referentes ao seu método. Agora para visualizar o gráfico é simples! Basta seguir 2 etapas extremamente fáceis. 
     
